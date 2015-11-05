@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA0F84AD1BEB0DD90086A1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F84AC1BEB0DD90086A1B2 /* main.m */; };
+		DA0F84B01BEB0DD90086A1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F84AF1BEB0DD90086A1B2 /* AppDelegate.m */; };
+		DA0F84B31BEB0DD90086A1B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F84B21BEB0DD90086A1B2 /* ViewController.m */; };
+		DA0F84B61BEB0DD90086A1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0F84B41BEB0DD90086A1B2 /* Main.storyboard */; };
+		DA0F84B81BEB0DD90086A1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0F84B71BEB0DD90086A1B2 /* Assets.xcassets */; };
+		DA0F84BB1BEB0DD90086A1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0F84B91BEB0DD90086A1B2 /* LaunchScreen.storyboard */; };
+		DA0F84C61BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F84C51BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderTests.m */; };
+		DA0F84D11BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F84D01BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderUITests.m */; };
+		DA0F851C1BEB0F420086A1B2 /* L3SDKConcurrentDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F851B1BEB0F420086A1B2 /* L3SDKConcurrentDownloader.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA0F84C21BEB0DD90086A1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA0F84A01BEB0DD90086A1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0F84A71BEB0DD90086A1B2;
+			remoteInfo = "ObjC-Concurrent-Downloader";
+		};
+		DA0F84CD1BEB0DD90086A1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA0F84A01BEB0DD90086A1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0F84A71BEB0DD90086A1B2;
+			remoteInfo = "ObjC-Concurrent-Downloader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA0F84A81BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-Concurrent-Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0F84AC1BEB0DD90086A1B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA0F84AE1BEB0DD90086A1B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA0F84AF1BEB0DD90086A1B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA0F84B11BEB0DD90086A1B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA0F84B21BEB0DD90086A1B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA0F84B51BEB0DD90086A1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA0F84B71BEB0DD90086A1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA0F84BA1BEB0DD90086A1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA0F84BC1BEB0DD90086A1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0F84C11BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC-Concurrent-DownloaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0F84C51BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC_Concurrent_DownloaderTests.m; sourceTree = "<group>"; };
+		DA0F84C71BEB0DD90086A1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0F84CC1BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC-Concurrent-DownloaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0F84D01BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC_Concurrent_DownloaderUITests.m; sourceTree = "<group>"; };
+		DA0F84D21BEB0DD90086A1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0F851A1BEB0F420086A1B2 /* L3SDKConcurrentDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKConcurrentDownloader.h; sourceTree = "<group>"; };
+		DA0F851B1BEB0F420086A1B2 /* L3SDKConcurrentDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKConcurrentDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA0F84A51BEB0DD90086A1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0F84BE1BEB0DD90086A1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0F84C91BEB0DD90086A1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA0F849F1BEB0DD90086A1B2 = {
+			isa = PBXGroup;
+			children = (
+				DA0F84AA1BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader */,
+				DA0F84C41BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderTests */,
+				DA0F84CF1BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderUITests */,
+				DA0F84A91BEB0DD90086A1B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA0F84A91BEB0DD90086A1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F84A81BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader.app */,
+				DA0F84C11BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderTests.xctest */,
+				DA0F84CC1BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA0F84AA1BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F85181BEB0F420086A1B2 /* L3SDK */,
+				DA0F84AE1BEB0DD90086A1B2 /* AppDelegate.h */,
+				DA0F84AF1BEB0DD90086A1B2 /* AppDelegate.m */,
+				DA0F84B11BEB0DD90086A1B2 /* ViewController.h */,
+				DA0F84B21BEB0DD90086A1B2 /* ViewController.m */,
+				DA0F84B41BEB0DD90086A1B2 /* Main.storyboard */,
+				DA0F84B71BEB0DD90086A1B2 /* Assets.xcassets */,
+				DA0F84B91BEB0DD90086A1B2 /* LaunchScreen.storyboard */,
+				DA0F84BC1BEB0DD90086A1B2 /* Info.plist */,
+				DA0F84AB1BEB0DD90086A1B2 /* Supporting Files */,
+			);
+			path = "ObjC-Concurrent-Downloader";
+			sourceTree = "<group>";
+		};
+		DA0F84AB1BEB0DD90086A1B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F84AC1BEB0DD90086A1B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA0F84C41BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F84C51BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderTests.m */,
+				DA0F84C71BEB0DD90086A1B2 /* Info.plist */,
+			);
+			path = "ObjC-Concurrent-DownloaderTests";
+			sourceTree = "<group>";
+		};
+		DA0F84CF1BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F84D01BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderUITests.m */,
+				DA0F84D21BEB0DD90086A1B2 /* Info.plist */,
+			);
+			path = "ObjC-Concurrent-DownloaderUITests";
+			sourceTree = "<group>";
+		};
+		DA0F85181BEB0F420086A1B2 /* L3SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F85191BEB0F420086A1B2 /* Net */,
+			);
+			path = L3SDK;
+			sourceTree = "<group>";
+		};
+		DA0F85191BEB0F420086A1B2 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				DA0F851A1BEB0F420086A1B2 /* L3SDKConcurrentDownloader.h */,
+				DA0F851B1BEB0F420086A1B2 /* L3SDKConcurrentDownloader.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA0F84A71BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0F84D51BEB0DD90086A1B2 /* Build configuration list for PBXNativeTarget "ObjC-Concurrent-Downloader" */;
+			buildPhases = (
+				DA0F84A41BEB0DD90086A1B2 /* Sources */,
+				DA0F84A51BEB0DD90086A1B2 /* Frameworks */,
+				DA0F84A61BEB0DD90086A1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjC-Concurrent-Downloader";
+			productName = "ObjC-Concurrent-Downloader";
+			productReference = DA0F84A81BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA0F84C01BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0F84D81BEB0DD90086A1B2 /* Build configuration list for PBXNativeTarget "ObjC-Concurrent-DownloaderTests" */;
+			buildPhases = (
+				DA0F84BD1BEB0DD90086A1B2 /* Sources */,
+				DA0F84BE1BEB0DD90086A1B2 /* Frameworks */,
+				DA0F84BF1BEB0DD90086A1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA0F84C31BEB0DD90086A1B2 /* PBXTargetDependency */,
+			);
+			name = "ObjC-Concurrent-DownloaderTests";
+			productName = "ObjC-Concurrent-DownloaderTests";
+			productReference = DA0F84C11BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA0F84CB1BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0F84DB1BEB0DD90086A1B2 /* Build configuration list for PBXNativeTarget "ObjC-Concurrent-DownloaderUITests" */;
+			buildPhases = (
+				DA0F84C81BEB0DD90086A1B2 /* Sources */,
+				DA0F84C91BEB0DD90086A1B2 /* Frameworks */,
+				DA0F84CA1BEB0DD90086A1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA0F84CE1BEB0DD90086A1B2 /* PBXTargetDependency */,
+			);
+			name = "ObjC-Concurrent-DownloaderUITests";
+			productName = "ObjC-Concurrent-DownloaderUITests";
+			productReference = DA0F84CC1BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA0F84A01BEB0DD90086A1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DomenicoVacchiano;
+				TargetAttributes = {
+					DA0F84A71BEB0DD90086A1B2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DA0F84C01BEB0DD90086A1B2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DA0F84A71BEB0DD90086A1B2;
+					};
+					DA0F84CB1BEB0DD90086A1B2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DA0F84A71BEB0DD90086A1B2;
+					};
+				};
+			};
+			buildConfigurationList = DA0F84A31BEB0DD90086A1B2 /* Build configuration list for PBXProject "ObjC-Concurrent-Downloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA0F849F1BEB0DD90086A1B2;
+			productRefGroup = DA0F84A91BEB0DD90086A1B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA0F84A71BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader */,
+				DA0F84C01BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderTests */,
+				DA0F84CB1BEB0DD90086A1B2 /* ObjC-Concurrent-DownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA0F84A61BEB0DD90086A1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0F84BB1BEB0DD90086A1B2 /* LaunchScreen.storyboard in Resources */,
+				DA0F84B81BEB0DD90086A1B2 /* Assets.xcassets in Resources */,
+				DA0F84B61BEB0DD90086A1B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0F84BF1BEB0DD90086A1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0F84CA1BEB0DD90086A1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA0F84A41BEB0DD90086A1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0F84B31BEB0DD90086A1B2 /* ViewController.m in Sources */,
+				DA0F84B01BEB0DD90086A1B2 /* AppDelegate.m in Sources */,
+				DA0F84AD1BEB0DD90086A1B2 /* main.m in Sources */,
+				DA0F851C1BEB0F420086A1B2 /* L3SDKConcurrentDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0F84BD1BEB0DD90086A1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0F84C61BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0F84C81BEB0DD90086A1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0F84D11BEB0DD90086A1B2 /* ObjC_Concurrent_DownloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA0F84C31BEB0DD90086A1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0F84A71BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader */;
+			targetProxy = DA0F84C21BEB0DD90086A1B2 /* PBXContainerItemProxy */;
+		};
+		DA0F84CE1BEB0DD90086A1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0F84A71BEB0DD90086A1B2 /* ObjC-Concurrent-Downloader */;
+			targetProxy = DA0F84CD1BEB0DD90086A1B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA0F84B41BEB0DD90086A1B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0F84B51BEB0DD90086A1B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA0F84B91BEB0DD90086A1B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0F84BA1BEB0DD90086A1B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA0F84D31BEB0DD90086A1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA0F84D41BEB0DD90086A1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA0F84D61BEB0DD90086A1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjC-Concurrent-Downloader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.ObjC-Concurrent-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA0F84D71BEB0DD90086A1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjC-Concurrent-Downloader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.ObjC-Concurrent-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA0F84D91BEB0DD90086A1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ObjC-Concurrent-DownloaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.ObjC-Concurrent-DownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjC-Concurrent-Downloader.app/ObjC-Concurrent-Downloader";
+			};
+			name = Debug;
+		};
+		DA0F84DA1BEB0DD90086A1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ObjC-Concurrent-DownloaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.ObjC-Concurrent-DownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjC-Concurrent-Downloader.app/ObjC-Concurrent-Downloader";
+			};
+			name = Release;
+		};
+		DA0F84DC1BEB0DD90086A1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ObjC-Concurrent-DownloaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.ObjC-Concurrent-DownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ObjC-Concurrent-Downloader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA0F84DD1BEB0DD90086A1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ObjC-Concurrent-DownloaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.ObjC-Concurrent-DownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ObjC-Concurrent-Downloader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA0F84A31BEB0DD90086A1B2 /* Build configuration list for PBXProject "ObjC-Concurrent-Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0F84D31BEB0DD90086A1B2 /* Debug */,
+				DA0F84D41BEB0DD90086A1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0F84D51BEB0DD90086A1B2 /* Build configuration list for PBXNativeTarget "ObjC-Concurrent-Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0F84D61BEB0DD90086A1B2 /* Debug */,
+				DA0F84D71BEB0DD90086A1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0F84D81BEB0DD90086A1B2 /* Build configuration list for PBXNativeTarget "ObjC-Concurrent-DownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0F84D91BEB0DD90086A1B2 /* Debug */,
+				DA0F84DA1BEB0DD90086A1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0F84DB1BEB0DD90086A1B2 /* Build configuration list for PBXNativeTarget "ObjC-Concurrent-DownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0F84DC1BEB0DD90086A1B2 /* Debug */,
+				DA0F84DD1BEB0DD90086A1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA0F84A01BEB0DD90086A1B2 /* Project object */;
+}
