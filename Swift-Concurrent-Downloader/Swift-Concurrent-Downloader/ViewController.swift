@@ -72,7 +72,7 @@ class ViewController: UIViewController,L3SDKConcurrentDownloaderDelegate {
         self.image2.delegate=self
         self.zipFile.delegate=self
         
-        //creates an NSOperationQueue with and array of NSOperation
+        //creates an NSOperationQueue with an array of NSOperation
         let operationQueue=NSOperationQueue()
         operationQueue.addOperations([self.image1,self.image2,self.zipFile], waitUntilFinished: false)
         
