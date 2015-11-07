@@ -6,11 +6,11 @@ An NSOperation subclass that implements (ObjC and Swift) a concurrent file downl
 
 It implements, as an NSOperation subclass, a concurrent file downloader.
 <br/>
-As NSOperation subclass you can use it through an instance of a NSOperationQueue by adding N instances of L3SDKConcurrentDownloader class.
+As NSOperation subclass you can use it through an instance of an NSOperationQueue by adding N instances of L3SDKConcurrentDownloader class.
 <br/>
 Whitin this project you will find both implementation for objc and swift.
 <br/>
-For further information about Concurrent Programming and Operation Queues referr to the Apple documentation here:
+For further information about Concurrent Programming and Operation Queues refer to the Apple documentation here:
 <br/>
 https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html
 
